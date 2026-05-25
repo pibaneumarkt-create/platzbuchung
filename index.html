@@ -235,7 +235,36 @@ html,body{font-family:'Questrial',Arial,sans-serif;background:#fff;color:#000;fo
   </div>
 </div>
 
-<!-- BOOKING<!-- BOOKING CARDS -->
+<!-- MOBILE APP HINT (nur mobil sichtbar) -->
+<div style="display:none" class="mobile-app-hint">
+  <span style="font-size:1.1rem">📱</span>
+  <span>Für eine reibungslose Buchung empfehlen wir die <a href="https://apps.apple.com/de/app/circlesquare-racketsport/id1624463814" target="_blank" style="color:#000;font-weight:700;text-decoration:underline;text-underline-offset:2px">CircleSquare App</a>.</span>
+</div>
+
+<style>
+@media(max-width:1024px){
+  .mobile-app-hint{
+    display:flex !important;
+    align-items:center;
+    gap:10px;
+    margin:0 32px 0;
+    padding:12px 18px;
+    background:#f5f5f5;
+    border:1px solid #e8e8e8;
+    border-radius:10px;
+    font-size:.88rem;
+    color:#444;
+    line-height:1.5;
+  }
+}
+@media(max-width:640px){
+  .mobile-app-hint{
+    margin:0 20px 0;
+  }
+}
+</style>
+
+<!-- BOOKING CARDS -->
 <div class="booking-grid">
 
   <div class="booking-card">
